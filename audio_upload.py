@@ -7,11 +7,13 @@ from google.cloud import speech
 import io
 import os
 
-credential_path = "./google_stt_json_key/fluid-mind-349305-684a50b53671.json"
+credential_path = "./google_stt_json_key/aws-stt-sever-project-3a48259ca53b.json"
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
 
 #flask module
 app = Flask(__name__)
+app.config['JSON_AS_ASCII'] = False #flask json 형식에서 한글 깨짐 현상 해결
+
 port_adress = "192.168.1.12"
 
 word_array = [
@@ -27,18 +29,28 @@ word_array = [
     "인자", "드가자", "퍼뜩", "됐다 그마해라"
 ]
 
+@app.route('/')
+def home_page():
+    return render_template('upload.html')
+
 @app.route('/file_upload', methods= ['GET', 'POST'])
 def upload_audio():
     global port_adress
 
     if request.method == 'POST':
+
+        #파일 저장 코
         f = request.files['file']
         #저장할 경로 + 파일명
         file_root = "./uploads/"+secure_filename(f.filename)
         f.save(file_root)
+
+        #저장된 오디오 파일 stt api 적용
         result_text = stt_func(file_root)
-        #'uploads 디렉토리 -> 파일업로드 성공!'
-        return result_text
+
+        #나온 텍스트를 return
+        return jsonify(text=result_text)
+
     elif request.method == 'GET':
         return render_template('upload.html')
 
@@ -69,6 +81,7 @@ def stt_func(fileName):
     for result in response.results:
         result_text.append(result.alternatives[0].transcript)
         # print('Transcript: {}'.format(result.alternatives[0].transcript))
+    print(result_text)
     return result_text[0]
     # [END speech_quickstart]
 

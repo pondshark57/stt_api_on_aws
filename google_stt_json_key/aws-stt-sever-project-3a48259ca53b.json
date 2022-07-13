@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "aws-stt-sever-project",
+  "private_key_id": "3a48259ca53bc7e036a9edf9cdc2c041156f6cbc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCkvKz3Zsjek/Mx\nEVzGpt67kc9x0ys3KZLHPYG+LYYfs4cZcvmbZlrCXEGbeafnsUh7qZwN8QYd2p6L\n4XCbdYGHbesnEbEPEe1EoevmNgnh4vCXPYQLAuFzL6zyTxD/Z668OYADUmrsQolb\nWyoOuU9K89GqERrImrVhtGze/Oa+MIkTfhMO2yFtt+L4Zjr1CgXeDq8C2hK07F3L\nTAbh3raO+IGe5F+7TSF5yVnfpkGyOu/u/BWvq5vBXw9IFh0fN1SyvUyXziRiuEYG\nU6mXPiY/XkMKMpXrgtapHBLWI2PXOUFlJbb5Cv/yNR0BesYA1WVtfbj/tYOgXmOA\nd3VqBlRjAgMBAAECggEAMOWR34NCNxKqGhPhulMYhIs0jEAWMTLlTr86bfT8PReg\nD5U5cn9QjCUvEhNrm5FbBt2ipN64Jo9YBQP+1R3tOwIMzNVq/SKgjwES0IuUplgi\nenm3Yj9SJMrvZiLC1FR1oIfer928P/FF7PhjxOgLGZ/CSVz3WrjVArG3qP5fDO9H\nQcLfHwwt9+9W7cXlTuSlpYA7r0+rG7Xo8LvY4qI6AQoJjjPExcsCCAgTm5kOGhBr\n9TOOhDEBJdw8Y4mHhAcS3PmfNpqxLdu7upam6NAQTeMoqWNocTRPLiPz8yFI5es8\n6kGpNwHbScQ+QYEUNyYM+sHx1hhqXRPfKBxpLzXBOQKBgQDoUr7uByta5DkUkUiM\nwb2EA4an+LtYuRVzyvw3DZlZpjzHBa3Z4Bw+L33gDRoGho2BxE+YYigt+GBEdsOR\n5F48xWQm/duN/t5JfKRoa5zRnJI0QF5egbS7O5kxK/SYwO6bVZxqc3rYG94KxKBS\nthjKh6dAvLFzL1epbpO1ckUlmwKBgQC1hp9nVR4eFz8+dgCkKyB+AkblGT/q8Qcy\ndAGlF2tyaNQD0aw943VgTIzmeKXbrZ1wuYjqFr13vG9yiPfoj8vcvPwFuxYdzvh6\nR6eP+yr6lLWjfE66QfqVcZ2Rv3x1Tklmj//NBdyPadpj/8kJVD+D3QBsZ2M09hmJ\nTgSbbu2c2QKBgQCS4GVXJO8y+mBf8W3Vl1LSWExUe3suH21BlI4Z3B4cQG3iQWPk\n/7u7UNkawg23HG/wH4VWyI+waHusLQ19ecxeTUkBIbMhtYUhHozue0JcfsksAZnn\n08bILGiwXqK3xBnV2K0X28RJRmz9j8vwHrHTsSl7UxA4yzB3rLHzn7e5iwKBgCec\nedpVo53TWtSpcVhhpNR6cLf7e4wsDnL/B4DcDHFJ2MIAlgJnSSy7Z5+/Qgoe55U6\nl1rlnXCsaPFoXBiekFDZ2HDzs07L5ELisfjkSSunGb/UF2XjkefchBLS4zjB3ZiI\n4bv+hHOzGJnrrhXgEYAX0MjXAroC3e2tXaoBWc55AoGABJnwxsMy+Jr/jkl85qTE\n7O8Y7nubDwfbSQOw1MQFoKACrM/ofnLVNnEyaAPJhdNAyGheKm/fqS57vGex2b4k\nvUxcvD15nUuYii1mejkE8d8ZbWKuwe9Sq88MZEzUXmIV771QHV09VdYFBZ+z5NQo\nhAkg7B1b+l4Oo1ptnX40alM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "pondshark@aws-stt-sever-project.iam.gserviceaccount.com",
+  "client_id": "106850986655291358545",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pondshark%40aws-stt-sever-project.iam.gserviceaccount.com"
+}
